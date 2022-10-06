@@ -1,0 +1,16 @@
+{
+  "name": "lesson1_introduction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "npx cypress open",
+    "cy:run": "npx cypress run",
+    "cy:run-single": "npx cypress run --spec \"cypress/e2e/spec.cy.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.9.0"
+  }
+}
